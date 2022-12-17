@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarkari Bazaar</title>
+
+    <!--Bootstrap section-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!--Font awesme kit-->
+    <script src="https://kit.fontawesome.com/81186a9118.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+
+
+    <!--StyleSheet-->
+    <link rel="stylesheet" href="./css/stylesheet.css"/>
+
+<!--fixed nav-->
+<style>
+  .affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+  }
+
+  .affix + .container-fluid {
+    padding-top: 70px;
+  }
+</style>
+
+</head>
+<body>
+    <!--header start-->
+   <header>
+<!--first nav-->
+      <nav class="bg-success"  data-spy="affix" data-offset-top="197">
+          <div class="row" >
+              
+              <div class="col-md-4 col-12 img-left">
+                  <img src="./veggies/onlinelogomaker-041921-1211-0605-500.jpg" alt="Logo">
+              </div>
+              <div class="col-md-4 col-12 text-right">
+                <div class="navbar navbar-expand-sm 8 navbar-dark">
+                  
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                    <button class="btn btn-success" type="submit">Search</button>
+                  
+                </div>
+                <br>
+                
+              </div>
+              <div class="col-md-4 col-12 text-right">
+                  <p class="my-md-4 rej text-right">
+                      <a href="register.html" class="px-8 text-center pt-2"><i class="fas fa-user badge-light"></i><span>Register</span></a>
+                      <a href="#" class="px-8"><i class="fas fa-sign-in-alt"></i><span>Log in</span></a>
+                      <a href="#" class="px-8"><i class="fas fa-cart-arrow-down"></i><span>My cart</span></a>
+                
+                      
+                  </p>
+              </div>
+          </div>
+        </nav>
+        <!--first nav end-->
+        <!--Second nav-->
+  <div class="container-fluid p-0 ">
+      <div class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Shop by categories</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">collection</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About US</a>
+                </li>
+               
+              </ul>
+            </div>
+          </div>
+      </div>
+
+        
+  </div>    
+  </header>
+ <!--header end-->
+
+    <!--main start-->
+    <main>
+        <!--first slider-->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./veggies/vegetable_1.jpg" class="d-block w-100" alt="Vegetable">
+              </div>
+              <div class="carousel-item">
+                <img src="./veggies/fruit.jpg" class="d-block w-100" alt="Fruits">
+              </div>
+              <div class="carousel-item">
+                <img src="./veggies/bread.jpg" class="d-block w-100" alt="Bakery">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        
+<!--first slider end-->
+
+<!--second slider-->
+<!--First part-->
+        <section id="seasonal">
+          <div class="title text-center">
+            <h1>Seasonal Vegetables</h1>
+          </div>
+<!--container for all products-->
+          <div class="container mb-5 mt-5">
+            <div class="row">
+<!--card-1-->
+              <div class="col-md-4">
+                <div class="card mt-3">
+                  <div class="product-1 align-items-center p-2 text-left">
+                    <img src="./veggies/beet.jpg" alt="" class="rounded">
+                    <h3>Beetroot</h3>
+ <!--card info-->
+                <div class="cost mt-3 ">
+                  <p class="star mt-3 align-items-center pt-2"> <span>Tarkaribazaar</span> <span></span>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  </p> 
+
+                </div>
+                                    
+                  <span class="text1">Rs 90</span>
+                    <div class="cost mt-3 ">
+                     <div class="box">
+                      <label for="name">Quantity:</label>
+                      <div class="dec button">-</div>
+                      <input type="text" name="_qty_" id="1" value="0.5" class="input-filed">
+                      <div class="inc button">+</div>
+                    </div>
+                     
+                    </div>
+                  </div>
+    <!--button for cards-->
+                  <div class="p-3 shoe text-center text-white mt-3 cursor">
+                    <span class="text-uppercase">Add to cart</span>
+                  </div>
+                </div>
+              </div>
+<!--card-1 ends-->
+
+  <!--card-2-->
+              <div class="col-md-4">
+                <div class="card mt-3">
+                  <div class="product-1 align-items-center p-2 text-left">
+                    <img src="./veggies/cauli.jpg" alt="" class="rounded">
+                    <h3>Cauliflower</h3>
+     <!--card info-->
+                    <div class="cost mt-3 ">
+                     <p class="star mt-3 align-items-center pt-2"> <span>Tarkaribazaar</span>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                     </p> 
+                 
+                    </div>
+                    <span class="text1 d-block">Rs 90</span>
+                    <div class="box">
+                      <label for="name">Quantity:</label>
+                      <div class="dec button">-</div>
+                      <input type="text" name="_qty_" id="1" value="0.5" class="input-filed">
+                      <div class="inc button">+</div>
+                    </div>
+                  </div>
+                  <!--button for cards-->
+                  <div class="p-3 shoe text-center text-white mt-3 cursor">
+                    <span class="text-uppercase">Add to cart</span>
+                  </div>
+                </div>
+              </div>
+       <!--card-2 ends-->
+       <!--card-3-->
+               <div class="col-md-4">
+                <div class="card mt-3">
+                  <div class="product-1 align-items-center p-2 text-left">
+                    <img src="./veggies/cabbage.jpg" alt="" class="rounded">
+                    <h3>Cabbage</h3>
+            <!--card info-->
+            
+                <div class="cost mt-3 ">
+                  <p class="star mt-3 align-items-center pt-2"> <span>Tarkaribazaar</span> <span></span>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                  </p> 
+              
+                 </div>
+                 <span class="text1 d-block">Rs 500</span>
+                 <div class="mt-3 info text-dark">
+                    <div class="box">
+                      <label for="name">Quantity:</label>
+                      <div class="dec button">-</div>
+                      <input type="text" name="_qty_" id="1" value="0.5" class="input-filed">
+                      <div class="inc button">+</div>
+                    </div>
+                  </div>
+                  </div>
+                  <!--button for cards-->
+                  <div class="p-3 shoe text-center text-white mt-3 cursor">
+                    <span class="text-uppercase">Add to cart</span>
+                  </div>
+                </div>
+              </div>
+              <!--card-3 ends-->
+        <!--card-4-->
+              <div class="col-md-4">
+                <div class="card mt-3">
+                  <div class="product-1 align-items-center p-2 text-left">
+                    <img src="./veggies/brocolli.jpg" alt="" class="rounded">
+                    <h3>Brocolli</h3>
+             <!--card info-->
+                 <div class="cost mt-3 ">
+                    <p class="star mt-3 align-items-center pt-2"> <span>Tarkaribazaar</span> <span></span>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                     </p> 
+                  </div>
+                  <span class="text1 d-block">Rs 500</span>
+                    <div class="mt-3 info text-dark">
+                      
+                      <div class="box">
+                        <label for="name">Quantity:</label>
+                        <div class="dec button">-</div>
+                        <input type="text" name="_qty_" id="1" value="0.5" class="input-filed">
+                        <div class="inc button">+</div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--button for cards-->
+                  <div class="p-3 shoe text-center text-white mt-3 cursor">
+                    <span class="text-uppercase">Add to cart</span>
+                  </div>
+                </div>
+              </div>
+        <!--card-4 ends-->
+        <!--card-5-->
+              <div class="col-md-4">
+                <div class="card mt-3">
+                  <div class="product-1 align-items-center p-2 text-left">
+                    <img src="./veggies/cucumber.jpg" alt="" class="rounded">
+                    <h3 >Cucumber</h3>
+            <!--card info-->
+                    <div class="cost mt-3 ">
+                      <p class="star mt-3 align-items-center pt-2"> <span>Tarkaribazaar</span> <span></span>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                       </p> 
+                    </div>
+                    <span class="text1 d-block text-bold">Rs 500</span>
+                    <div class="mt-3 info text-dark"> 
+                     
+                      <div class="box">
+                        <label for="name">Quantity:</label>
+                        <div class="dec button">-</div>
+                        <input type="text" name="_qty_" id="1" value="0.5" class="input-filed">
+                        <div class="inc button">+</div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--button for cards-->
+                  <div class="p-3 shoe text-center text-white mt-3 cursor">
+                    <span class="text-uppercase">Add to cart</span>
+                  </div>
+                </div>
+              </div>
+              <!--card-5 ends-->
+              <!--card-6-->
+              <div class="col-md-4">
+                <div class="card mt-3">
+                  <div class="product-1 align-items-center p-2 text-left">
+                    <img src="./veggies/favabeans.jpg" alt="" class="rounded">
+                    <h3 >FavaBeans</h3>
+                    <!--card info-->
+                    <div class="cost mt-3 ">
+                      <p class="star mt-3 align-items-center pt-2"> <span>Tarkaribazaar</span> <span></span>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                       </p> 
+                    </div>
+                    <span class="text1 d-block text-bold">Rs 500</span>
+                    <div class="mt-3 info text-dark">
+                      
+                      
+                      <div class="box">
+                        <label for="name">Quantity:</label>
+                        <div class="dec button">-</div>
+                        <input type="text" name="_qty_" id="1" value="0.5" class="input-filed">
+                        <div class="inc button">+</div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--button for cards-->
+                  <div class="p-3 shoe text-center text-white mt-3 cursor">
+                    <span class="text-uppercase">Add to cart</span>
+                  </div>
+                </div>
+              </div>
+              <!--card-6 ends-->
+              <!--card-7-->
+              <div class="col-md-4">
+                <div class="card mt-3">
+                  <div class="product-1 align-items-center p-2 text-left">
+                    <img src="./veggies/mushroom.jpg" alt="" class="rounded">
+                    <h3 >Mushroom</h3>
+                    <!--card info-->
+                    <div class="cost mt-3 ">
+                      <p class="star mt-3 align-items-center pt-2"> <span>Tarkaribazaar</span> <span></span>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                       </p> 
+                    </div>
+                    <span class="text1 d-block text-bold">Rs 500</span>
+                    <div class="mt-3 info text-dark">
+                      
+                    
+                      <div class="box">
+                        <label for="name">Quantity:</label>
+                        <div class="dec button">-</div>
+                        <input type="text" name="_qty_" id="1" value="0.5" class="input-filed">
+                        <div class="inc button">+</div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--button for cards-->
+                  <div class="p-3 shoe text-center text-white mt-3 cursor">
+                    <span class="text-uppercase">Add to cart</span>
+                  </div>
+                </div>
+              </div>
+              <!--card-7 ends-->
+      <!--card-8-->
+              <div class="col-md-4">
+                <div class="card mt-3">
+                  <div class="product-1 align-items-center p-2 text-left">
+                    <img src="./veggies/ginger.jpg" alt="" class="rounded">
+                    <h3 >Ginger</h3>
+                    <!--card info-->
+                    <div class="cost mt-3 ">
+                      <p class="star mt-3 align-items-center pt-2"> <span>Tarkaribazaar</span> <span></span>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                       </p> 
+                    </div>
+                    <span class="text1 d-block text-bold">Rs 500</span>
+                    <div class="mt-3 info text-dark">
+                      
+                      <div class="box">
+                        <label for="name">Quantity:</label>
+                        <div class="dec button">-</div>
+                        <input type="text" name="_qty_" id="1" value="0.5" class="input-filed">
+                        <div class="inc button">+</div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--button for cards-->
+                  <div class="p-3 shoe text-center text-white mt-3 cursor">
+                    <span class="text-uppercase">Add to cart</span>
+                  </div>
+                </div>
+              </div>
+              <!--card-8 ends-->
+       <!--card-9-->
+              <div class="col-md-4">
+                <div class="card mt-3">
+                  <div class="product-1 align-items-center p-2 text-left">
+                    <img src="./veggies/potatoes.jpg" alt="" class="rounded">
+                    <h3 >potatoes</h3>
+                    <!--card nfo-->
+                    <div class="cost mt-3 ">
+                      <p class="star mt-3 align-items-center pt-2"> <span>Tarkaribazaar</span> <span></span>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                       </p> 
+                    </div>
+                    <span class="text1 d-block text-bold">Rs 500</span>
+                    <div class="mt-3 info text-dark">
+                      
+                     
+                      <div class="box">
+                        <label for="name">Quantity:</label>
+                        <div class="dec button">-</div>
+                        <input type="text" name="_qty_" id="1" value="0.5" class="input-filed">
+                        <div class="inc button">+</div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--button for cards-->
+                  <div class="p-3 shoe text-center text-white mt-3 cursor">
+                    <span class="text-uppercase">Add to cart</span>
+                  </div>
+                </div>
+              </div>
+              <!--card-9 ends-->
+              
+               
+            </div>          
+  <!--First part end-->    
+      <!--Second part-->
+      <section id="seasonal">
+        <div class="title text-center">
+          <h1>Fruits</h1>
+        </div>
+<!--container for all products-->
+        <div class="container mb-5 mt-5">
+          <div class="row">
+<!--card-1-->
+            <div class="col-md-4">
+              <div class="card mt-3">
+                <div class="product-1 align-items-center p-2 text-left">
+                  <img src="./veggies/nectarines.jpg" alt="" class="rounded">
+                  <h3>Nectarines</h3>
+<!--card info-->
+              <div class="cost mt-3 ">
+                <p class="star mt-3 align-items-center pt-2"> <span>Tarkaribazaar</span> <span></span>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </p> 
+              </div>
+              <span class="text1 d-block text-bold">Rs 500</span>
+                    <div class="mt-3 info text-dark">
+                      
+                      <div class="box">
+                        <label for="name">Quantity:</label>
+                        <div class="dec button">-</div>
+                        <input type="text" name="_qty_" id="1" value="0.5" class="input-filed">
+                        <div class="inc button">+</div>
+                      </div>
+                    </div>
+                  </div>
+                  
+<!--button for cards-->
+                <div class="p-3 shoe text-center text-white mt-3 cursor">
+                  <span class="text-uppercase">Add to cart</span>
+                </div>
+              </div>
+            </div>
+<!--card-1 ends-->
+
+            <!--card-2-->
+            <div class="col-md-4">
+              <div class="card mt-3">
+                <div class="product-1 align-items-center p-2 text-left">
+                  <img src="./veggies/blakberry.jpg" alt="" class="rounded">
+                  <h3>Blackberry</h3>
+                  <!--card nfo-->
+                  <div class="cost mt-3 ">
+                    <p class="star mt-3 align-items-center pt-2"> <span>Tarkaribazaar</span> <span></span>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </p> 
+                  </div>
+                  <span class="text1 d-block text-bold">Rs 500</span>
+                        <div class="mt-3 info text-dark">
+                          
+                  
+                          <div class="box">
+                            <label for="name">Quantity:</label>
+                            <div class="dec button">-</div>
+                            <input type="text" name="_qty_" id="1" value="0.5" class="input-filed">
+                            <div class="inc button">+</div>
+                          </div>
+                        </div>
+                      </div>
+                  
+                <!--button for cards-->
+                <div class="p-3 shoe text-center text-white mt-3 cursor">
+                  <span class="text-uppercase">Add to cart</span>
+                </div>
+              </div>
+            </div>
+            <!--card-2 ends-->
+             <!--card-3-->
+             <div class="col-md-4">
+              <div class="card mt-3">
+                <div class="product-1 align-items-center p-2 text-left">
+                  <img src="./veggies/blueberry.jpg" alt="" class="rounded">
+                  <h3>Blueberry</h3>
+                  <!--card nfo-->
+                  <div class="cost mt-3 ">
+                    <p class="star mt-3 align-items-center pt-2"> <span>Tarkaribazaar</span> <span></span>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </p> 
+                  </div>
+                  <span class="text1 d-block text-bold">Rs 500</span>
+                        <div class="mt-3 info text-dark">
+                          
+                          <div class="box">
+                            <label for="name">Quantity:</label>
+                            <div class="dec button">-</div>
+                            <input type="text" name="_qty_" id="1" value="0.5" class="input-filed">
+                            <div class="inc button">+</div>
+                          </div>
+                        </div>
+                      </div>
+                  
+                <!--button for cards-->
+                <div class="p-3 shoe text-center text-white mt-3 cursor">
+                  <span class="text-uppercase">Add to cart</span>
+                </div>
+              </div>
+            </div>
+        <!--card-3 ends-->
+      <!--card-4-->
+            <div class="col-md-4">
+              <div class="card mt-3">
+                <div class="product-1 align-items-center p-2 text-left">
+                  <img src="./veggies/jumlaApple.jpg" alt="" class="rounded">
+                  <h3>Jumla Apple</h3>
+                  <!--card info-->
+                  <div class="cost mt-3 ">
+                    <p class="star mt-3 align-items-center pt-2"> <span>Tarkaribazaar</span> <span></span>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </p> 
+                  </div>
+                  <span class="text1 d-block text-bold">Rs 500</span>
+                        <div class="mt-3 info text-dark">
+                          
+                          <div class="box">
+                            <label for="name">Quantity:</label>
+                            <div class="dec button">-</div>
+                            <input type="text" name="_qty_" id="1" value="0.5" class="input-filed">
+                            <div class="inc button">+</div>
+                          </div>
+                        </div>
+                      </div>
+                  
+                <!--button for cards-->
+                <div class="p-3 shoe text-center text-white mt-3 cursor">
+                  <span class="text-uppercase">Add to cart</span>
+                </div>
+              </div>
+            </div>
+            <!--card-4 ends-->
+      <!--card-5-->
+            <div class="col-md-4">
+              <div class="card mt-3">
+                <div class="product-1 align-items-center p-2 text-left">
+                  <img src="./veggies/mango.jpg" alt="" class="rounded">
+                  <h3 >Mango</h3>
+                  <!--card nfo-->
+                  <div class="cost mt-3 ">
+                    <p class="star mt-3 align-items-center pt-2"> <span>Tarkaribazaar</span> <span></span>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </p> 
+                  </div>
+                  <span class="text1 d-block text-bold">Rs 500</span>
+                        <div class="mt-3 info text-dark">
+                          
+                        
+                          <div class="box">
+                            <label for="name">Quantity:</label>
+                            <div class="dec button">-</div>
+                            <input type="text" name="_qty_" id="1" value="0.5" class="input-filed">
+                            <div class="inc button">+</div>
+                          </div>
+                        </div>
+                      </div>
+                  
+                <!--button for cards-->
+                <div class="p-3 shoe text-center text-white mt-3 cursor">
+                  <span class="text-uppercase">Add to cart</span>
+                </div>
+              </div>
+            </div>
+            <!--card-5 ends-->
+        <!--second slider end-->
+    </main>
+    <!--Main end-->
+
+    <!--Footer start-->
+      <footer class="footer">
+        <div class="l-footer">
+          <div class="col-md-4 col-12 img-top-left">
+            <img src="./veggies/onlinelogomaker-041921-1211-0605-500.jpg" alt="Logo">
+        </div>
+      <p >The Tarkari Bazaar enables customers to set buy vegetables, customers to 
+        browse through the vegetables as well as their respective prices, and a system
+         administrator approves requests for new customers  and maintain lists of shop categories.
+          Also on the agenda is designing an online shopping site to manage the items in the shop and
+           also help customers purchase them online without having to visit the shop physically. 
+        </p>
+      </div>
+        <ul class="r-footer">
+          <li>
+            <h2>
+            Social</h2>
+        <ul class="box">
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Pinterest</a></li>
+          <li><a href="#">Dribbble</a></li>
+        </ul>
+        </li>
+        <li class="features">
+          <h2>
+        Information</h2>
+        <ul class="box h-box">
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Sales</a></li>
+        <li><a href="#">Tickets</a></li>
+        <li><a href="#">Certifications</a></li>
+        <li><a href="#">Customer Service</a></li>
+        </ul>
+        </li>
+        <li>
+          <h2>
+        Legal</h2>
+        <ul class="box">
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Use</a></li>
+        <li><a href="#">Contract</a></li>
+        </ul>
+        </li>
+        </ul>
+        <div class="b-footer">
+        <p>
+        All rights reserved by ©TarkariBazaar 2021 </p>
+        </div>
+    
+    </footer>
+    <!--Footer end-->
+
+    <!--Increment and decrment-->
+    <script>
+      var incrementButton = document.getElementsByClassName('inc');
+      var decrementButton = document.getElementsByClassName('dec');
+      //console.log(incrementButton);
+      //console.log(decrementButton);
+      //increment
+      for(var i= 0 ; i< incrementButton.length ; i++)
+      {
+        var button = incrementButton[i];
+        button.addEventListener('click',function(event){
+          var buttonClicked = event.target;
+          //console.log(buttonClicked);
+          var input = buttonClicked.parentElement.children[2];
+          //console.log(input);
+          var inputValue = input.value;
+          //console.log(inputValue);
+          var newValue = parseInt(inputValue) + 1;
+          //console.log(newValue);
+          
+          if(newValue <= 5){
+            input.value = newValue;
+          }
+          else{
+            //input.value = newValue;
+            alert('qty cannot be more than 5')
+          }
+          
+        })
+      }
+        //decrement
+        for(var i=0 ; i< decrementButton.length ; i++)
+      {
+        var button = decrementButton[i];
+        button.addEventListener('click',function(event){
+          var buttonClicked = event.target;
+          //console.log(buttonClicked);
+          var input = buttonClicked.parentElement.children[2];
+          //console.log(input);
+          var inputValue = input.value;
+          //console.log(inputValue);
+          
+          var newValue = parseInt(inputValue) - 1;
+          //console.log(newValue);
+          if(newValue >= 0.5){
+            input.value = newValue;
+          }
+          else{
+            input.value=0.5;
+            //alert('qty cannot be less than zero')
+          }
+        })
+
+      }
+      
+    </script>
+    <!--increment and decrment ends-->
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+
+</body>
+</html>
